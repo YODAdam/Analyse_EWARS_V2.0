@@ -59,9 +59,31 @@ install.packages(c("tidyverse", "writexl", "lubridate"))
 source("script.R")
 ```
 
-## 📤 Output
+## 📤 Output Description
+### **Donnees_climatiques_EWARS-CSD.xlsx**
 
-**Donnees_climatiques_EWARS-CSD.xlsx** — weekly rainfall, temperature, and humidity summaries.
+This Excel file contains **weekly aggregated climate indicators** for all processed sites.  
+The following variables are included:
+
+| Variable | Description |
+|---------|-------------|
+| **localite** | Name of the monitoring site (e.g., Bobo, Sig-Nonghin, Pouytenga) |
+| **district** | District code associated with the site |
+| **Year** | Observation year |
+| **Week** | ISO week number |
+| **Pluie_totale** | Total rainfall (mm) during the week |
+| **Temperature_Moyenne** | Weekly mean temperature (°C), based on `(TMAX + TMIN)/2` |
+| **Humidite_Moyenne** | Weekly mean relative humidity (%), based on `(UMAX + UMIN)/2` |
+
+### Example Output (illustrative)
+
+| Localité     | District | Année | Semaine | Pluie Totale | Température Moyenne | Humidité Moyenne |
+|--------------|----------|--------|---------|---------------|----------------------|-------------------|
+| Bobo         | 9121     | 2025   | 12      | 14.2 mm       | 28.4°C               | 63 %              |
+| Sig-Nonghin  | 7141     | 2025   | 12      | 9.1 mm        | 29.8°C               | 57 %              |
+| Pouytenga    | 4221     | 2025   | 12      | 11.0 mm       | 27.5°C               | 61 %              |
+
+This file is directly usable for climate surveillance, early warning systems, reporting, and statistical analysis.
 
 ## 📝 Author
 
