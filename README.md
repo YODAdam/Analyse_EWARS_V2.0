@@ -37,7 +37,7 @@ Outputs the cleaned and summarized dataset in:
 ## 📁 Project Structure
 
 ```
-📦 project/
+📦 Analyse_EWARS_V2.0/
  ├── data/
  │    ├── Bobo/
  │    ├── Boulbi/
