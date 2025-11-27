@@ -43,7 +43,10 @@ Outputs the cleaned and summarized dataset in:
  │    ├── Boulbi/
  │    └── Koupela/
  ├── dates_semaines_2025.txt
- ├── script.R
+ ├── Donnees_climatiques_EWARS-CSD.xlsx
+ ├── Projet_Analyse_EWARS.Rproj
+ ├── script_improved.R
+ ├── script_main.R
  └── README.md
 ```
 
